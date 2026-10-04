@@ -1,0 +1,6 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^robots\.txt$ public/robots.php [L]
+RewriteRule ^sitemap\.xml$ public/sitemap.php [L]
+RewriteRule ^(app|storage|tests|dist|test-output)(/|$) - [F,L]
+RewriteRule ^$ public/ [L,R=302]

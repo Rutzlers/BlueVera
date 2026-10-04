@@ -1,0 +1,7 @@
+/storage/*
+!/storage/.htaccess
+/public/uploads/*
+!/public/uploads/.htaccess
+/dist/
+/test-output/
+*.log
