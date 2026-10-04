@@ -1,0 +1,1 @@
+window.addEventListener('DOMContentLoaded',function(){if(window.iFrameResize&&document.getElementById('paytriframe')){window.iFrameResize({checkOrigin:['https://www.paytr.com']},'#paytriframe');}});
