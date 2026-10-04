@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+Options -Indexes
+
+RewriteEngine On
+
+RewriteRule ^robots\.txt$ robots.php [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>

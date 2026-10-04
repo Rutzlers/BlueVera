@@ -1,0 +1,7 @@
+.git
+.gitignore
+storage/
+test-output/
+tests/
+dist/
+.DS_Store
